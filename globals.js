@@ -1,3 +1,4 @@
+// lección 1
 console.log("__dirname")
 console.log(__dirname) //devuelve donde se encuentra el archivo general (globals.js)
 console.log("__filename")
