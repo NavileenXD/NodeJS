@@ -12,4 +12,7 @@ console.log("")
 console.log("Grupo de Constantes")
 console.log(webGroup)
 
+//También puede accederse a un campo del grupo en particular
+console.log(webGroup.myArray)
+
  

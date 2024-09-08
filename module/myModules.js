@@ -1,3 +1,5 @@
+let mySecretValue = "xyz456" //es una variable que no es visible para la constante group en el main.js ya que no se guardó en module.exports
+
 const MyWebAddress = "google.com"
 const MyNumber = 9
 const MyArray = [10 , 20, 30]
