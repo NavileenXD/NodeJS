@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <!-- Para iniciar esta página en un servidor se usa -->
+    <!-- npx serve -s public -->
+    <!-- public es la carpeta donde se encuentra el archivo html -->
+    <h1>Hola mundo desde el curso de nodeJS</h1>
+    <button id="btn">
+        click
+    </button>
+    <script>
+        const btn = document.querySelector('#btn')
+        btn.addEventListener('click', function() {
+
+            alert('Hello World') 
+        })
+    </script>
+</body>
+</html>
+
+
