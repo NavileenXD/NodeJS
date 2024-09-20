@@ -22,6 +22,8 @@ async function read() {
         console.log(result);
         const result2 = await getText("./data/second.txt");
         console.log(result2);
+        throw new Error ("Esto es un error inesperado"); //Manera de crear los propios errores
+        //Se ve que luego del Error, no se ejecuta lo demás.
         const result3 = await getText('./data/fourth.txt');
         console.log(result3);
     } catch (error) {
