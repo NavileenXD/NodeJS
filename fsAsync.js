@@ -8,4 +8,4 @@ fsAsync.readFile('./data/first.txt', 'utf-8', function(error, data){ //esa funci
         console.log(error)
     }
     console.log(data)
-}) 
+})
