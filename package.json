@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "descripcion": "descripcion del proyecto",
     "main": "main.js",
+    "type": "module",
     "dependencies": {
         "-": "^0.0.1",
         "bootstrap": "^5.3.3",
